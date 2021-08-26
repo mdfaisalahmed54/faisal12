@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.containar{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header{
+  width: 100%;
+  float: left;
+  background-image: linear-gradient(to right,red,yellow);
+}
+.logo{
+  width: 33.33%;
+  float: left;
+  margin: 10px auto;
+}
+.logo img{
+  width: 10%;
+  float: none;
+  display: inline-block;
+  margin-left: -11px;
+}
+.menu{
+
+width: 45%;
+
+float: left;
+
+margin-right: 19px;
+
+margin-left: -114px;
+}
+.menu nav{
+
+margin: 10px;
+}
+.menu nav ul{
+
+}
+.menu nav ul li{
+text-decoration: none;
+list-style: none;
+display: inline-block;
+text-align: center;
+}
+.menu nav ul li a{
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 600px;
+  font-size: 19px;
+}
+/* hover area start */
+}
+.menu ul{
+  text-align: center;
+}
+.menu ul li{
+  list-style:none;
+  display:inline-block;
+  position:relative;
+}
+.menu ul li a{
+  text-decoration: none;
+  display:inline-block;
+  font-size: 18px;
+  margin: 0px;
+  color: green;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: .4s;
+}
+.menu ul li a:hover{
+  color:white;
+}
+
+.menu ul li ul{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 200px;
+  z-index: 999;
+  transform: scale(0);
+  transform-origin: top center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+  background: #ff9900;
+  box-shadow: 0 2px 8px -2px rgb(37, 39, 38);
+}
+.menu ul li:hover ul{
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+}
+.menu ul li ul li a{
+  padding: 10px 15px;
+  margin-left: -3px;
+  margin-right: 5px;
+}
+/* hover area end */
+.header-button{
+
+width: 20%;
+
+float: left;
+
+padding: 10px 0px;
+
+margin-left: 51px;
+
+margin-top: 5px;
+}
+.btn-1 button{
+
+background-color: #ff0d01;
+
+color: white;
+
+padding: 8px 20px;
+
+border: none;
+
+border-radius: 20px;
+}
+.btn-1 button:hover{
+background-color: burlywood;
+transition: 0.8s;
+cursor: pointer;
+}
+.btn-2 button{
+  margin-left: 8px;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border:1px solid white;
+}
+.btn-2 button:hover{
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.images-2 img{
+  float: right;
+  margin-right: 130px;
+  margin-top: 31px;
+}
+.text{
+  
+}
