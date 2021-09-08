@@ -1,153 +1,188 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-.containar{
-  width: 1140px;
-  margin: 0 auto;
-}
-
-.header{
-  width: 100%;
-  float: left;
-  background-image: linear-gradient(to right,red,yellow);
-}
-.logo{
-  width: 33.33%;
-  float: left;
-  margin: 10px auto;
-}
-.logo img{
-  width: 10%;
-  float: none;
-  display: inline-block;
-  margin-left: -11px;
-}
 .menu{
-
-width: 45%;
-
-float: left;
-
-margin-right: 19px;
-
-margin-left: -114px;
+    overflow: hidden;
 }
-.menu nav{
-
-margin: 10px;
+ul{
+    float: right;
+    margin-right: 35px;
+    
 }
-.menu nav ul{
-
+li{
+    list-style: none;
+    display: inline-block;
 }
-.menu nav ul li{
-text-decoration: none;
-list-style: none;
-display: inline-block;
-text-align: center;
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    
 }
-.menu nav ul li a{
-  text-decoration: none;
-  margin: 10px;
-  font-weight: 600px;
-  font-size: 19px;
+.top-section{
+    height: 500px;
 }
-/* hover area start */
+.welcome-hello{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
 }
-.menu ul{
-  text-align: center;
+.Faisal{
+    border-radius: 31%;
 }
-.menu ul li{
-  list-style:none;
-  display:inline-block;
-  position:relative;
-}
-.menu ul li a{
-  text-decoration: none;
-  display:inline-block;
-  font-size: 18px;
-  margin: 0px;
-  color: green;
-  font-weight: 600;
-  text-transform: uppercase;
-  transition: .4s;
-}
-.menu ul li a:hover{
-  color:white;
+img{
+    width: 100%;
 }
 
-.menu ul li ul{
-  position: absolute;
-  left: 0;
-  top: 100%;
-  width: 200px;
-  z-index: 999;
-  transform: scale(0);
-  transform-origin: top center;
-  opacity: 0;
-  visibility: hidden;
-  transition: .4s;
-  background: #ff9900;
-  box-shadow: 0 2px 8px -2px rgb(37, 39, 38);
+.welcome-hello h1{
+    font-size: 57px;
 }
-.menu ul li:hover ul{
-  transform: scaleY(1);
-  opacity: 1;
-  visibility: visible;
+.welcome-hello p{
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: gray;
 }
-.menu ul li ul li a{
-  padding: 10px 15px;
-  margin-left: -3px;
-  margin-right: 5px;
+.welcome-hello a{
+    text-decoration: none;
+    background: red;
+    padding: 16px 31px;
+    color: wheat;
+    font-size: 20px;
+    border-radius: 4px;
 }
-/* hover area end */
-.header-button{
-
-width: 20%;
-
-float: left;
-
-padding: 10px 0px;
-
-margin-left: 51px;
-
-margin-top: 5px;
+.welcome-hello span{
+    color: chartreuse;
 }
-.btn-1 button{
-
-background-color: #ff0d01;
-
-color: white;
-
-padding: 8px 20px;
-
-border: none;
-
-border-radius: 20px;
+.about{
+    margin-top: 132px;
 }
-.btn-1 button:hover{
-background-color: burlywood;
-transition: 0.8s;
-cursor: pointer;
+.detels{
+    color: chartreuse;
 }
-.btn-2 button{
-  margin-left: 8px;
-  border-radius: 20px;
-  padding: 8px 20px;
-  cursor: pointer;
-  border:1px solid white;
+.lastet{
+    color: darkgoldenrod;
 }
-.btn-2 button:hover{
-  border: 1px solid red;
-  box-sizing: border-box;
+.lets-work{
+    text-align: center;
+    
 }
-.images-2 img{
-  float: right;
-  margin-right: 130px;
-  margin-top: 31px;
+.lats-work{
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+    background: #e3e3e3;
+    border-radius: 13px;
 }
-.text{
-  
+.lats-work h3{
+    text-align: center;
+    font-size: 27px;
+}
+.lats-work p{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.protfolio{
+    height: 800px;
+    background: #a9c7f3;
+}
+.protfolio h1{
+    text-align: center;
+    padding: 93px;
+    font-size: 40px;
+}
+.protfolio h1 span{
+    color: greenyellow;
+}
+.blog-titel{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    margin: auto;
+    padding: 82px;
+
+}
+.blog-titel p{
+    color: gray;
+}
+.sigel-blog{
+    width: 30%;
+    background: white;
+    float: left;
+    padding-left: 7px;
+    margin-left: 31px;
+}
+.sigel-blog h3{
+    font-size: 33px;
+}
+.sigel-blog h4 span{
+    color: rgb(133, 10, 10);
+    font-size: 20px;
+    
+}
+.sigel-blog h4{
+    color: gray;
+}
+.sigel-blog p{
+    font-size: 17px;
+    color: gray;
+}
+.sigel-blog a{
+    text-decoration: none;
+    font-size: 19px;
+    background: #c66969;
+    padding: 7px;
+    border-radius: 50px;
+}
+.all-blog{
+    background: #f0e5e5;
+    height: 859px;
+}
+.magazin{
+    height: 188px;
+    width: 55%;
+    margin: auto;
+    
+}
+.baner{
+    margin-top: 90px;
+}
+.advice{
+    margin-top: -155px;
+    margin-left: 18px;
+    font-size: 30px;
+    color: white;
+}
+.chat{
+    margin-left: 525px;
+    margin-top: -100px;
+}
+.chat a{
+    text-decoration: none;
+    color: white;
+    background: #ff5151;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.footer-titel{
+    text-align: center;
+    padding: 109px;
+}
+.footer-titel h3{
+    color: gray;
+}
+.footer-titel h1{
+    color: #464242;
+}
+
+
+.icon{
+    width: 5%;
+    float: left;
+    margin-left: 1%;
+}
+
+.social-icon{
+    margin-left: 593px;
+    margin-top: -105px; 
 }
